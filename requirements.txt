@@ -1,3 +1,10 @@
-flake8==7.1.1
-pytest==8.3.3
-pytest-cov==6.0.0
+coverage>=6.0,<7.0  # Coverage library
+flake8>=5.0,<6.0    # Latest major version is 5.x, no 7.x available
+iniconfig>=1.1.1    # Latest stable version
+mccabe>=0.6.0,<0.8  # Latest stable version is 0.7.x
+packaging>=21.0     # Latest stable version, or you can omit the version
+pluggy>=1.0,<2.0    # Pluggy is compatible up to 1.5.0
+pycodestyle>=2.9.1  # Compatible with flake8 up to 2.12.1
+pyflakes>=2.4.0     # Compatible with flake8 up to 3.2.0
+pytest>=7.0,<9.0    # Latest major version range for stability
+pytest-cov>=4.0     # Coverage plugin for pytest
